@@ -1,8 +1,8 @@
 %define realname   Text-Quoted
 
 Name:		perl-%{realname}
-Version:    1.8
-Release: %mkrel 4
+Version:    2.02
+Release: %mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Perl module to extract the structure of a quoted mail message
