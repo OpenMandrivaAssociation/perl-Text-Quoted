@@ -1,7 +1,7 @@
 %define realname   Text-Quoted
 
 Name:		perl-%{realname}
-Version:    2.03
+Version:    2.05
 Release: %mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
