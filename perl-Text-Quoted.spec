@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:    2.05
-Release: %mkrel 1
+Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Perl module to extract the structure of a quoted mail message
