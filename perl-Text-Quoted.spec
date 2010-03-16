@@ -1,5 +1,5 @@
 %define upstream_name    Text-Quoted
-%define upstream_version 2.05
+%define upstream_version 2.06
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:    Perl module to extract the structure of a quoted mail message
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:    ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:    ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  perl(Text::Autoformat)
 BuildArch: noarch
@@ -27,7 +27,7 @@ different levels of quoting, and turns the text into a nested data structure.
 %make
 
 %check
-make test
+%make test
 
 %install
 rm -rf $RPM_BUILD_ROOT
