@@ -1,15 +1,15 @@
 %define upstream_name    Text-Quoted
-%define upstream_version 2.06
+%define upstream_version 2.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 2.08
+Release:	1
 
 Summary:	Perl module to extract the structure of a quoted mail message
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-Quoted-2.08.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Text::Autoformat)
@@ -89,4 +89,5 @@ rm -rf %{buildroot}%{perl_vendorarch}
 
 * Sat Oct 01 2005 Michael Scherer <misc@mandriva.org> 1.8-1mdk
 - First mandriva package
+
 
