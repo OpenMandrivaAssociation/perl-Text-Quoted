@@ -8,7 +8,7 @@ Release:	3
 Summary:	Perl module to extract the structure of a quoted mail message
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-Quoted-2.08.tar.gz
 
 BuildRequires:	perl-devel
