@@ -1,15 +1,15 @@
 %define upstream_name    Text-Quoted
-%define upstream_version 2.08
+%define upstream_version 2.10
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 2.08
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Perl module to extract the structure of a quoted mail message
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-Quoted-2.08.tar.gz
+Url:		https://metacpan.org/dist/Text-Quoted
+Source0:	https://cpan.metacpan.org/authors/id/B/BP/BPS/Text-Quoted-2.10.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
