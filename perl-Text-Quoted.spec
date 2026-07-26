@@ -1,9 +1,7 @@
 %define upstream_name    Text-Quoted
-%define upstream_version 2.10
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	2.10
+Release:	2
 
 Summary:	Perl module to extract the structure of a quoted mail message
 License:	GPL+ or Artistic
@@ -21,7 +19,7 @@ Text::Quoted examines the structure of some text which may contain multiple
 different levels of quoting, and turns the text into a nested data structure.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -47,9 +45,7 @@ rm -rf %{buildroot}%{perl_vendorarch}
 
 * Sat Aug 01 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.50.0-1mdv2010.0
 + Revision: 406189
-- rebuild using %%perl_convert_version
-
-* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 2.05-4mdv2009.0
+- rebuild using %2.10 Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 2.05-4mdv2009.0
 + Revision: 258620
 - rebuild
 
